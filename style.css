@@ -1,7 +1,6 @@
 .nav{
     width: auto;
     height: 130px;
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -27,7 +26,7 @@
     
 }
 .banner-photo{
-    width: auto;
+    width: 50%;
     height: 700px;
 }
 
@@ -43,7 +42,7 @@
     background-color: rgb(234, 98, 222);
     padding: 20px;
     border-radius: 15px;
-    width: 120px;
+    width: 150px;
 }
 .go-rogue{
     background-color: rgb(74, 179, 221);
@@ -61,4 +60,23 @@
 }
 .banner-p{
     margin-top: -30px;
+}
+.main-1{
+    display: flex;
+}
+.main-content{
+    background-color: #FFFFFF;
+    text-align: right;
+    margin-right: 100px;
+}
+.main-h2{
+    color:rgb(234, 98, 222);
+}
+.main-content-2{
+    text-align: center;
+}
+.card{
+    display: flex;
+    padding: 50px 100px;
+    gap: 20px;
 }
