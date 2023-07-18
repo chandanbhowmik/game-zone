@@ -80,3 +80,22 @@
     padding: 50px 100px;
     gap: 20px;
 }
+.main-3{
+    display: flex;
+    width: auto;
+    margin-left: 100px;
+}
+.main-3-content{
+    text-align: right;
+    padding: 170px 0px 100px 300px;
+}
+.main-3-photo{
+    margin-left: 200px;
+    position: relative;
+}
+.absolate{
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 680px;
+    
+}
