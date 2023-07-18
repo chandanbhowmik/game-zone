@@ -1,3 +1,6 @@
+.heading{
+    color: rgb(234, 98, 222);
+}
 .nav{
     width: auto;
     height: 130px;
@@ -98,4 +101,56 @@
     margin-top: -300px;
     margin-left: 680px;
     
+}
+.logo-para1{
+    display: flex;
+    margin-top: 130px;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+.logo-para1:hover{
+    cursor: pointer;
+
+
+}
+.logo-para2{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    height: 50px;
+    align-items: center; 
+}
+.logo-part2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.footer{
+    margin-top: 100px;
+    padding-top: -50px;
+    width: auto;
+    height: 400px;
+    background-color: black;
+    color: white;
+
+}
+.list, ul, li{
+    display: flex; 
+    justify-content: center;
+    gap: 35px;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    gap:  15px;
+    
+}
+.list2{
+    color: rgb(103, 98, 98) ;
+}
+.last-line{
+    text-align: center;
+    color: rgb(103, 98, 98);
 }
