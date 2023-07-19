@@ -9,6 +9,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: #FFFFFF;
+    gap: 400px;
 }
 .logo-part{
     display: flex;
@@ -42,12 +43,13 @@
     padding-top: 200px;
     width: 100%;
     height: 600px;
-    text-align: center;
+    text-align: left;
+    padding-left: 100px;
     
 }
 .banner-photo{
-    width: 50%;
     height: 700px;
+    margin-right: 60px;
 }
 
 .banner-container{
@@ -110,7 +112,7 @@
     padding: 170px 0px 100px 300px;
 }
 .main-3-photo{
-    margin-left: 200px;
+    margin-left: 250px;
     position: relative;
 }
 .absolat{
@@ -152,6 +154,7 @@
 .logo-part2{
     color: white;
     display: flex;
+    align-items: center;
     justify-content: center;
     margin-top: 150px;
 }
@@ -184,4 +187,11 @@
 .last-line{
     text-align: center;
     color: rgb(103, 98, 98);
+}
+
+@media screen and (max-width:576px) {
+    
+     .logo-part{
+        grid-template-columns: repeat(1, 1fr);
+     }
 }
