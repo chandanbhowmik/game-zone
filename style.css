@@ -195,9 +195,124 @@
     color: rgb(103, 98, 98);
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width: 425px) {
+   *body{
+    margin: 0px;
+    padding: 0px;
+   }
+    .logo-part{
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        display: none;
+    }
+    .nav{
+        flex-direction: column;
+        
+        padding: 0px;
+        width: 100%;
+    }
+    .banner-container{
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+    }
+    .banner-photo{
+        width: 200px;
     
+    
+    }
+    .main-1{
+        flex-direction: column;
+    }
+    .main-content{
+        background-color: #FFFFFF;
+        width: 425px;
+        text-align: center;
+    }
+    .main-2{
+        flex-direction: column;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .main-3{
+        flex-direction: column;
+        text-align: center;
+        padding: 0px;
+    }
+    .main-3-content{
+        padding: 0px;
+        text-align: center;
+    }
+    .main-3-photo{
+        margin-left: 0px;
+        width: 300px;
+    }
+    .logo4{
+
+       flex-direction: column;
+    }
+
+  } 
+  @media screen and (min-width: 425px) and (max-width: 768px) {
+    *body{
+     margin: 0px;
+     padding: 0px;
+    }
      .logo-part{
+         flex-direction: column;
+         align-items: center;
+         background-color: black;
+         display: none;
+     }
+     .nav{
+         flex-direction: column;
+         
+         padding: 0px;
+         width: 100%;
+     }
+     .banner-container{
+         flex-direction: column;
+         margin: 0px;
+         padding: 0px;
+         width: auto;
+     }
+     
+     .main-1{
+         flex-direction: column;
+     }
+     .main-content{
+         background-color: #FFFFFF;
+         width: 425px;
+         text-align: center;
+     }
+     .main-content-2{
+        text-align: center;
+     }
+     .main-2{
+         flex-direction: column;
+     }
+     .card{
+         flex-direction: column;
+     }
+     .main-3{
+         flex-direction: column;
+         text-align: center;
+         padding: 0px;
+     }
+     .main-3-content{
+         padding: 0px;
+         text-align: center;
+     }
+     .main-3-photo{
+         margin-left: 0px;
+         width: 300px;
+     }
+     .logo4{
+ 
         flex-direction: column;
      }
-}
+ 
+   } 
